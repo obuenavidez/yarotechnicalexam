@@ -1,0 +1,49 @@
+.hero1 {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero1::after {
+  content: "";
+  display: block;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.hero1 * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero1 h1, .hero h2 ,h3 {
+  color: white;
+}
+
+.hero1 h1 {
+  font-size: 120px;
+  padding-top: 100px;
+  margin-top: 0;
+  font-style: Arial;
+}
+
+.hero1 h3 {
+  font-size: 40px;
+  padding-top: 100px;
+  margin-top: 0;
+  font-style: Arial;
+}
+
+hero1 h4 {
+  font-size: 5px;
+  padding-top: 10px;
+  margin-top: 10;
+  color: black;
+   
+}

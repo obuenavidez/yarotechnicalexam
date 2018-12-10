@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/news-scraper.png",
+    "occupation": " This web app lets users view and leave comments on the latest news.It is not actually writing any articles; instead, it flexes Mongoose and Cheerio technologies to scrape news from another site. ",
+    "name": "Mongo Scraper",
+    "price" : 12.99,
+    "qty" : 1,
+    "url" : "https://serene-basin-71913.herokuapp.com/",
+    "gurl" : "https://github.com/obuenavidez/news-scraper",
+
+    
+    "clicked": false
+  },
+  {
+    
+    "id": 2,
+    "image": "/assets/images/clicky.png",
+    "occupation": "This application renders different images (of your choice) to the screen. Each image should listen for click events. It keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.Once the user's score is reset after an incorrect guess, the game should restart",
+    "name": "Fun Clicky Game",
+    "price" : 12.99,
+    "qty" : 1,
+    "url" : "https://guarded-waters-89693.herokuapp.com/",
+    "gurl" : "https://github.com/obuenavidez/clicky-game",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/reading-list.png",
+   "occupation": "This application renders different images (of your choice) to the screen. Each image should listen for click events. It keeps track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.Once the user's score is reset after an incorrect guess, the game should restart",
+    "name": "Reading List",
+    "price" : 12.99,
+    "qty" : 1,
+    "url" : "https://guarded-waters-89693.herokuapp.com/",
+    "gurl" : "https://github.com/obuenavidez/clicky-game",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/nyt-search.png",
+    "occupation": "In this project it will add React Router to the Books application in order to render a book details page as well as a no match 404 page.",
+    "name": "New York Time Multiple Search",
+    "price" : 12.99,
+    "qty" : 1,
+    "url" : "https://stark-crag-55528.herokuapp.com/",
+    "gurl" : "https://github.com/obuenavidez/react-boiler-plate",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/calendar.png",
+    "name": "Calendar",
+    "price" : 8.99,
+    "qty" : 1,
+    "clicked": false
+  }
+   
+]

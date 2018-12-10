@@ -1,0 +1,58 @@
+.list-overflow-container {
+  max-height: 545px;
+  border: 0px #DDDDDD solid;
+  border-radius: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-decoration: none;
+  padding-right: 1px;
+  background-color: rgb(252, 227, 1);
+  opacity: 0.7;
+}
+
+.list-overflow-container ul {
+  margin: 0;
+  background-color:rgb(252, 227, 1);
+  
+
+}
+
+.list-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+  background-color:rgb(252, 227, 1);
+}
+
+.list-overflow-container li * {
+  cursor: pointer;
+  text-decoration: none;
+  background-color:rgb(252, 227, 1);
+  font-style: normal;
+  
+
+}
+
+.list-overflow-container li a {
+  font-style: normal;
+  color:black;
+  background-color: rgb(252, 227, 1);
+  padding-right: 60px;
+}
+
+.list-overflow-container p {
+  font-weight:normal; 
+  color:black;
+  background-color: #72C245;
+  font-size:18px;
+  margin: 3px;
+  
+}
+
+.list-overflow-container li:first-child {
+  border-top: none;
+}
+
+.list-overflow-container li:last-child {
+  border-bottom: none;
+}
