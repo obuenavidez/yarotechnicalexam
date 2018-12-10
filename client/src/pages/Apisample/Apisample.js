@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DeleteBtn from "../../components/DeleteBtn";
+import DeleteBtn2 from "../../components/DeleteBtn2";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
 import { Link } from "react-router-dom";
@@ -105,7 +105,7 @@ class Books extends Component {
                         {book.title} Amount {book.author}
                       </strong>
                     </Link>
-                    <DeleteBtn onClick={() => this.deleteBook(book._id)} />
+                    <DeleteBtn2 onClick={() => this.deleteBook(book._id)} />
                   </ListItem>
                 ))}
               </List>
